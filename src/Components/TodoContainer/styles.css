@@ -1,0 +1,124 @@
+.todo-actions-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+  color: #777777;
+  font-size: 14px;
+  box-shadow:
+    /* The top layer shadow */ 0 1px 1px rgba(0, 0, 0, 0.15),
+    /* The second layer */ 0 10px 0 -5px #eee,
+    /* The second layer shadow */ 0 10px 1px -4px rgba(0, 0, 0, 0.15),
+    /* The third layer */ 0 20px 0 -10px #eee,
+    /* The third layer shadow */ 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+}
+
+.todo-item-container {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  padding: 5px;
+  box-shadow: 0px 0px 1px 0px #191919;
+}
+
+.left-space {
+  padding-left: 64px !important;
+}
+
+.invisible {
+  display: none;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f5f5;
+  height: 100vh;
+}
+
+.todo-inner-container {
+  width: 70%;
+  background: white;
+  font-size: 24px;
+  box-shadow: 3px 3px 16px 0px grey;
+}
+
+.strike-text {
+  text-decoration: line-through;
+  color: #d9d9d9;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+.todo-item-checkbox {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  color: #f5f5f5;
+  margin-right: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-delete-btn {
+  display: none;
+}
+
+.todo-item-container:hover .item-delete-btn {
+  display: block;
+  border: none;
+  background: white;
+  color: red;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.todo-inputbox {
+  width: 94%;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background: white;
+  font-size: 24px;
+  padding: 22px 12px;
+}
+
+.todotype-btn {
+  background: white;
+  border-radius: 2px;
+  border-color: rgba(175, 47, 47, 0.2);
+  margin-right: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.todo-btn-inactive {
+  border: none;
+}
+
+h2 {
+  color: rgba(175, 47, 47, 0.15);
+  font-size: 80px;
+  font-weight: 100;
+}
+
+.checkbox-img {
+  height: 32px;
+  width: 32px;
+}
+
+.edit-input {
+  width: 1202px;
+}
+
+.clr-item-btn {
+  margin-right: 20px;
+}
+
+.display-none {
+  display: none;
+}
